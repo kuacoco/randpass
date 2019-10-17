@@ -1,12 +1,12 @@
-:lock: randpass
+## :lock: randpass
 
-## Install
+#### Install
 
 ```
 go build
 ```
 
-## Usage
+#### Usage
 
 ```
 randpass -n 8
