@@ -3,7 +3,7 @@
 #### Install
 
 ```
-go build
+go install
 ```
 
 #### Usage
