@@ -12,7 +12,7 @@ const letterBytes = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvw
 func main() {
 
 	var (
-		num *int = flag.Int(
+		num = flag.Int(
 			"n", 8, "Password Length",
 		)
 	)
@@ -22,6 +22,7 @@ func main() {
 }
 
 func randStringBytes(n int) []byte {
+
 	b := make([]byte, n)
 	rand.Seed(time.Now().UnixNano())
 	for i := range b {
